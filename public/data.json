@@ -1,0 +1,33 @@
+[
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "FAQ",
+      "url": "/faq"
+    },
+    {
+      "label": "Changelog",
+      "url": "/changelog"
+    },
+    {
+      "label": "Tickets",
+      "url": "/tickets",
+      "submenu": [
+        {
+          "label": "Open Tickets",
+          "url": "/tickets/open"
+        },
+        {
+          "label": "In Progress",
+          "url": "/tickets/in-progress"
+        },
+        {
+          "label": "Resolved",
+          "url": "/tickets/resolved"
+        }
+      ]
+    }
+  ]
+  
