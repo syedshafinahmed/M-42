@@ -1,11 +1,14 @@
+import { Menu } from 'lucide-react'
 import './App.css'
+import NavBar from './NavBar/NavBar'
 
 function App() {
-  
+
 
   return (
     <>
-      <button className='btn m-10'>Button</button>
+      <NavBar></NavBar>
+
     </>
   )
 }
