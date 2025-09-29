@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './NavBar/NavBar'
 import { Suspense } from 'react'
 import Pricing from './Pricing/Pricing'
+import ResultChart from './ResultChart/ResultChart'
 
 function App() {
   const dataPromise = fetch('/data.json')
@@ -23,6 +24,8 @@ function App() {
       }>
         <Pricing pricingPromise={pricingPromise}></Pricing>
       </Suspense>
+
+      <ResultChart></ResultChart>
 
     </>
   )
