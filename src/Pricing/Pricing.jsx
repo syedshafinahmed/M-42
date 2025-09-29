@@ -6,7 +6,7 @@ const Pricing = ({ pricingPromise }) => {
     return (
         <div>
             <h2 className='font-medium text-5xl text-center'>Get Membership</h2>
-            <div className='grid md:grid-cols-3 gap-8'>
+            <div className='grid md:grid-cols-3 h-full gap-8'>
                 {
                     pricingData.map(pricing => <PricingCard pricing={pricing} key={pricing.id}></PricingCard>)
                 }
