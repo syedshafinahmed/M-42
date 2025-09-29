@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "Basic Plan",
+        "price": 29,
+        "currency": "USD",
+        "billingCycle": "monthly",
+        "description": "Perfect for beginners who want access to essential gym equipment.",
+        "features": [
+            "Access to gym floor",
+            "Cardio equipment",
+            "Free weight section",
+            "Locker room access"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Standard Plan",
+        "price": 49,
+        "currency": "USD",
+        "billingCycle": "monthly",
+        "description": "Ideal for regular gym-goers who want group classes and extra perks.",
+        "features": [
+            "Everything in Basic Plan",
+            "Unlimited group classes (Yoga, HIIT, Zumba)",
+            "1 personal training session per month",
+            "Sauna & steam room access",
+            "Nutrition guidance"
+        ],
+        "popular": true
+    },
+    {
+        "id": 3,
+        "name": "Premium Plan",
+        "price": 79,
+        "currency": "USD",
+        "billingCycle": "monthly",
+        "description": "For fitness enthusiasts who want full benefits and personalized training.",
+        "features": [
+            "Everything in Standard Plan",
+            "Weekly personal training sessions",
+            "Advanced strength equipment",
+            "Priority class booking",
+            "Massage therapy discounts",
+            "Free gym merchandise"
+        ]
+    }
+]

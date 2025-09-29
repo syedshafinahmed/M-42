@@ -3,7 +3,7 @@ import React, { use, useState } from 'react';
 
 const NavBar = ({ dataPromise }) => {
     const datas = use(dataPromise)
-    const displayData = datas.map(data => <p className='text-center px-3 hover:bg-amber-700 text-black'>{data.label}</p>)
+    const displayData = datas.map(data => <p className='text-center px-3 hover:bg-amber-700 md:hover:bg-transparent text-black md:text-white'>{data.label}</p>)
     const [open, setOpen] = useState(false);
     return (
         <div className='flex justify-between items-center p-7 '>
